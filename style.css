@@ -5,6 +5,7 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 .btn-primery{
     color: #FFF;
@@ -129,6 +130,7 @@ main{
 .features-img{
     height: 90%;
     margin-left: 70px;
+    position: relative;
 }
 .ten-years-badg{
     border-radius: 8px;
@@ -136,8 +138,9 @@ main{
     width: 258px;
     margin: 0px;
     padding: 40px;
-    position: relative;
-    bottom: 100px;
+    position: absolute;
+    bottom: -50px;
+    left: -10%;
 }
 .ten-years-badg h2{
     color: #FFF;
@@ -205,11 +208,11 @@ main{
 }
 /* footer section */
 .footer-section{
-    margin: 32px 70px 32px 70px;
+    margin: 32px auto;
     text-align: center;
     /* padding: 38px 60px 38px 60px; */
     height: 100px;
-    width: 100%;
+    width: 80%;
     border-radius: 8px;
     background: #FFF4E7;
 }
@@ -241,7 +244,7 @@ main{
         padding-left: 7%;
         padding-right: 7%;
     }
-    .features-imgb{
+    .features-img{
         width:90% ;
         margin-left: 0px;
     }
